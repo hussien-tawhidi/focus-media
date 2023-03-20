@@ -5696,3 +5696,56 @@ del {
 .switch-wrap {
   margin-bottom: 10px;
 }
+
+/* --------------------------------------- */
+.demo {
+  text-align: center;
+  margin: 40px 0 500px;
+}
+
+.counter-block {
+  padding: 75px 0;
+  background-color: #f9f9f9;
+  border: solid 1px #e6e6e6;
+}
+@media screen and (max-width: 767px) {
+  .counter-block {
+    padding: 45px 0;
+  }
+}
+.counter-block .counter-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+@media screen and (max-width: 767px) {
+  .counter-block .counter-items {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.counter-block .counter-items .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 2em;
+}
+@media screen and (max-width: 767px) {
+  .counter-block .counter-items .item {
+    padding: 2em;
+    border-top: solid 1px #e6e6e6;
+  }
+  .counter-block .counter-items .item:first-child {
+    border: none;
+  }
+}
+.counter-block .counter-items .item h2 {
+  font-family: "Open-Sans", sans-serif;
+  font-size: 52px;
+  margin: 0 0 16px;
+}
+.counter-block .counter-items .item p {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
