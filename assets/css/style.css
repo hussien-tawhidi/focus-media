@@ -32,17 +32,6 @@
 .theme-color {
   color: #ff656a;
 }
-.marketing-poster{
-  margin: 2rem 0;
-}
-.marketing-poster img{
-  height: 70vh;
-  width: auto;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-
-}
 .boxed-btn {
   background: #fff;
   color: #ff656a !important;
@@ -1637,25 +1626,25 @@ hr {
   }
 }
 .section-padding2 {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .section-padding2 {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-padding2 {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-padding2 {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -1828,16 +1817,22 @@ hr {
     padding-bottom: 28px;
   }
 }
-
-
+.trusted-padding {
+  /* padding-top: 200px; */
+}
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .trusted-padding {
+    /* padding-top: 200px; */
+  }
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .trusted-padding {
-    padding-top: 100px;
+    /* padding-top: 100px; */
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .trusted-padding {
-    padding-top: 100px;
+    /* padding-top: 100px; */
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -2935,7 +2930,9 @@ hr {
   display: block;
   width: 100%;
 }
-
+.testimonial-area {
+  padding-top: 135px;
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .testimonial-area {
     padding-top: 90px;
@@ -3778,6 +3775,7 @@ hr {
   }
 }
 .blog-info-link li {
+  float: left;
   font-size: 14px;
 }
 .blog-info-link li a {
