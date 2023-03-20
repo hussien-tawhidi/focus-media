@@ -1,0 +1,61 @@
+.programming .icon {
+  margin-left: 1.5rem;
+}
+
+.programming .icon span {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.programming .icon .heart {
+  color: rgb(255, 255, 255);
+  background-color: rgb(165, 73, 73);
+}
+.programming .icon .light {
+  color: rgb(245, 245, 96);
+  background-color: rgb(168, 148, 60);
+}
+.programming .icon .briefcase {
+  color: #fff;
+  background-color: rgb(94, 196, 94);
+}
+.content-texts {
+}
+.programming .icon .service-icon {
+  color: #58ceff;
+  background: transparent;
+}
+.services {
+  margin: 2rem 0;
+  background-color: #f5f5f5;
+  padding: 5rem 0;
+}
+
+.beneficial,
+.pad-webdevelopment{
+    padding: 3rem 0;
+}
+@media (max-width: 400px) {
+  .programming .content-texts .icon {
+    margin-left: 0.5rem;
+  }
+  .programming .content-texts .icon span {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+}
